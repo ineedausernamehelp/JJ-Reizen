@@ -2,3 +2,20 @@
     padding: 0;
     margin: 0;
 }
+nav{
+    height: 20vh;
+    width: 100%;
+    background-color: #A8DADC;
+    display: flex;
+
+}
+.image{
+ display: flex;
+ margin-left: 2%;
+ align-self: center;
+}
+.text{
+    align-self: center;
+    height: 20%;
+    width: 20%;
+}
