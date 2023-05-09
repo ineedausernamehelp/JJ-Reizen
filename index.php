@@ -1,3 +1,4 @@
 <?php
-require_once('header.php');
+require_once('comp/header.php');
 ?>
+</html>
