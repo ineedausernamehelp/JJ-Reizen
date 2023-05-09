@@ -2,10 +2,26 @@
 
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
     height: 20%;
     background-color: #A8DADC;
     width: 100%;
+
+}
+.groot-footer-block{
+    background-color: #F1FAEE;
+    width: 10%;
+    height: 10%;
+}
+.klein-footer-block{
+    background-color: #F1FAEE;
+    height: 5%;
+    width: 10%;
+
 }
