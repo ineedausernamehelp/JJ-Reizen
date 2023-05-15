@@ -62,7 +62,7 @@ footer {
   text-align: center;
 }
 .footer-tekst {
-    color: black;
+  color: black;
   background-color: #f1faee;
   text-decoration: none;
 }
@@ -70,4 +70,7 @@ footer {
   height: 80%;
   width: 20%;
   margin-right: 5%;
+}
+#policy{
+  padding-top: 25%;
 }
