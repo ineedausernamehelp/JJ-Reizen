@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+
     <div class="footer-container">
         <footer>
             <div class="footer-grid">
@@ -36,6 +36,6 @@
             </section>
         </footer>
     </div>
-</body>
+
 
 </html>
