@@ -122,3 +122,37 @@ nav{
     background-image: url('../img/hooftimg.png');
 background-size: cover;
   }
+
+/* contact */
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+ }
+
+ .input-boxes{
+  border: none;
+  border-bottom: solid #000000 2px;
+  width: 30%;
+ }
+ .groot-input-box{
+  height: 20%;
+  resize: vertical;
+  max-height: 35%;
+  min-height: 3%;
+
+ }
+ .submit-box{
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  font-size: large  ;
+    background-color: #A8DADC;
+    border: none;
+    width: 8%;
+    height: 7%;
+    border: solid #000000 1px;
+
+ }
