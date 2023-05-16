@@ -1,8 +1,14 @@
-function checkErrors() {
-    let naam = getElementById("naam").value;
-    let email = getElementById("email").value;
-    let message = getElementById("message").value;
-    if(naam == "" || email == "" || message == ""){
-        alert("1 of meerdere velden staan leeg")
+document.getElementById("submit").addEventListener("click", function(event){
+    event.preventDefault()
+    let naam = document.getElementById("naam").value;
+    let bestemming = document.getElementById("bestemming").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+    console.log(message);
+    console.log(email);
+    console.log(naam);
+    console.log(bestemming);
+    if(naam == "" || email == "" || message == "" || bestemming == ""){
+        alert("1 of meerdere velden staan leeg");
     }
-}
+  });   

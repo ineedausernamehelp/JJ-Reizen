@@ -1,19 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+
 <body>
-    <? include('comp/header.php'); ?>
-    <form action="contact.php">
-        <input type="text" name="naam" placeholder="name" id="naam">
-        <input type="text" name="email" placeholder="email" id="email">
-        <input type="text" name="bericht" placeholder="uw-bericht" id="message">
-        <input type="submit" value="submit" onclick="checkErrors()" id="submit">
+    <?php include('comp\header.php'); ?>
+    <form action="contact.php"  method="post" class="contact-container">
+         <h1>Contact</h1>
+        <input type="text" name="naam" placeholder="Naam" id="naam" class="input-boxes">
+        <input type="text" name="email" placeholder="Email" id="email" class="input-boxes">
+        <input type="text" name="bestemming" placeholder="Bestemming" id="bestemming" class="input-boxes">
+        <textarea name="bericht" id="message" cols="30" rows="10" class="input-boxes groot-input-box" placeholder="Uw Bericht"></textarea>
+        <input type="submit" value="Submit"  id="submit" class="submit-box">
     </form>
     <script src="scripts/main.js"></script>
+
+    <?php //include('comp/footer.php')?>
 </body>
 </html>
