@@ -1,8 +1,13 @@
 <?php
 require_once('comp/header.php');
 ?>
-<div class="test"></div>
+<div class="hooftblok">
+    <div>
+    </div>
+</div>
 <?php 
-require_once('comp/footer.php')
+require_once('comp/fo
+
+oter.php')
 ?>
 </html>
