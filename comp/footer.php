@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 
 
 
@@ -27,5 +25,5 @@
         </footer>
     </div>
 
-
+</body>
 </html>

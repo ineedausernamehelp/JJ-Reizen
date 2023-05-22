@@ -1,5 +1,5 @@
-document.getElementById("submit").addEventListener("click", function(event){
-    event.preventDefault()
+document.getElementById("conSubmit").addEventListener("click", function(event){
+    event.preventDefault();
     let naam = document.getElementById("naam").value;
     let bestemming = document.getElementById("bestemming").value;
     let email = document.getElementById("email").value;
@@ -8,7 +8,8 @@ document.getElementById("submit").addEventListener("click", function(event){
     console.log(email);
     console.log(naam);
     console.log(bestemming);
+    //contact
     if(naam == "" || email == "" || message == "" || bestemming == ""){
         alert("1 of meerdere velden staan leeg");
     }
-  });   
+  });    
