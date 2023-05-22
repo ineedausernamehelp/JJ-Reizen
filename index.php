@@ -6,8 +6,6 @@ require_once('comp/header.php');
     </div>
 </div>
 <?php 
-require_once('comp/fo
-
-oter.php')
+require_once('comp/footer.php')
 ?>
 </html>
