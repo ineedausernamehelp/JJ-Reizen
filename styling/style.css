@@ -169,5 +169,7 @@ display: flex;
 
    }
    .hooftcontainer-polecy{
-    
+    height: auto;
+    width: 100%;
+    min-height: 55vh;
    }
