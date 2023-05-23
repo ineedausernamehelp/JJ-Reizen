@@ -179,11 +179,12 @@ display: flex;
 	  align-items: center;
    }
    .copyright-hooft{
-    width: 50vw;
+    width: 55vw;
     height: 10vh;
     background-color:#A8DADC;
     display: flex;
     align-items: center;
+    margin-top: 10%;
    }
    .copyright-text{
     height: 60%;
@@ -195,13 +196,17 @@ display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+
    }
-   .privacy-hooft{
-    width: 50vw;
+   #privacy-hooft{
+    width: 55vw;
     height: 10vh;
     background-color:#A8DADC;
     display: flex;
     align-items: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
    }
    .privacy-text{
     height: 60%;
@@ -213,9 +218,11 @@ display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+
    }
    #plusenmin{
    padding-left: 60%;
    font-size: 80px;
    }
+  
    
