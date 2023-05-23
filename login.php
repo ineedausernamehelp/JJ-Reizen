@@ -1,6 +1,17 @@
 
-<?php ?>
-<?php include('comp\header.php'); ?>
+<?php include('comp\header.php');
+$data = $conn->query("SELECT * FROM users")->fetchAll(); 
+
+foreach ($data as $row){
+    if(isset($_POST['submit'])){
+        if (isset($_POST['username']) == $row['username'] && isset($_POST['password']) == $row['password']){
+
+            echo('logged in');
+            header('Location: adminPanel.php');
+        }
+    }
+}
+?>
     <form action="login.php"  method="post" class="contact-container">
          <h1>Login</h1>
         <input type="text" name="username" placeholder="Gebruikersnaam" id="gbnaam" class="input-boxes">
