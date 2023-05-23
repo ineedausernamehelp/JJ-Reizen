@@ -1,5 +1,5 @@
 document.getElementById("conSubmit").addEventListener("click", function(event){
-    event.preventDefault();
+    //event.preventDefault();
     let naam = document.getElementById("naam").value;
     let bestemming = document.getElementById("bestemming").value;
     let email = document.getElementById("email").value;
