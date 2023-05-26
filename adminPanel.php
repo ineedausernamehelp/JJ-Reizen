@@ -11,6 +11,6 @@ if(isset($_SESSION['LOGGED_IN']) && $_SESSION['LOGGED_IN'] == true) {
     <a href="delete-reis.php">delete reizen</a>
     <a href="feedback-back.php">bekijk en verwijder feedback</a>
     <a href="add-user.php">User toevoegen</a>
-    <a href="del-user.php">User verwijderen</a>
+    <a href="users-inzien.php">users inzien</a>
     <a href="comp/logout.php">logout</a>
 </div>
