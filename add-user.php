@@ -2,15 +2,10 @@
 <?Php include_once('comp/header.php')?>
 <?php
     if (isset($_POST["submit"])) {
-        $message = "";
         $username = (isset($_POST['username']) ? $_POST['username'] : '');
         $password = (isset($_POST['password']) ? $_POST['password'] : '');
 
         if($_POST['username'] == "" || $_POST['password'] == ""){
-            $message = "vul velden in";
-            echo($message);
-
-
         }
         else{
             $sql = "INSERT INTO users (username, password) VALUES (?,?)";

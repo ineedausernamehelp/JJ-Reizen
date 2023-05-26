@@ -1,14 +1,11 @@
 <?Php include_once('comp/header.php');
 
 if (isset($_POST["submit"])) {
-    $message = "";
     $bestemming = (isset($_POST["bestemming"]) ? $_POST["bestemming"] : "");
     $prijs = (isset($_POST["prijs"]) ? $_POST["prijs"] : "");
     $beschrijving = (isset($_POST["beschrijving"]) ? $_POST["beschrijving"] : "");
 
     if ($_POST['bestemming'] == "" || $_POST['beschrijving'] == "" || $_POST["prijs"] == "") {
-        $message = "vul velden in";
-        echo ($message);
     } else {
 
         $sql = "INSERT INTO reizen(bestemming, beschrijving, prijs) VALUES (?,?,?)";

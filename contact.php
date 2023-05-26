@@ -7,8 +7,6 @@ if (isset($_POST["conSubmit"])) {
     $bericht = (isset($_POST["bericht"]) ? $_POST["bericht"] : "");
 
     if ($_POST['naam'] == "" || $_POST['email'] == "" || $_POST["bestemming"] == "" || $_POST["bericht"] == "") {
-        $message = "vul velden in";
-        echo ($message);
     } else {
 
 
