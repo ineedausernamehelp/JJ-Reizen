@@ -204,7 +204,7 @@ display: flex;
     background-color:#A8DADC;
     display: flex;
     align-items: center;
-    margin-bottom: 10%;
+  
     margin-top: 10%;
 
    }
@@ -224,5 +224,18 @@ display: flex;
    padding-left: 60%;
    font-size: 80px;
    }
+   .hide {
+    background-color: #F1FAEE;  
+    height: 30vw;     
+    width: 55% ;     
+    margin-bottom: 5%;
+    
+   }
   
-   
+  
+   .informatie2{
+    padding-bottom: 5%;
+   }
+   .pad{
+    margin-bottom: 8%;
+   }

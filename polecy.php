@@ -9,11 +9,11 @@ require_once('comp/header.php');
 <div id="informatie"><p id=text></p></div>
     <div id="privacy-hooft">
     <div class="privacy-text"><p>privacy</p></div>
-    <div id="plusenmin"><p id="plus2" onclick="plus2()">+</p></div></div>
+    <div id="plusenmin"><p id="plus2" onclick="toggleClass()">+</p></div></div>
 
     <div id="informatie2"><p id=text2></p></div>
 </div>
-
+<div class="pad"></div>
 
 <?php 
 require_once('comp/footer.php')

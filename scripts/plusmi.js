@@ -1,16 +1,30 @@
 
 function plus1() {
-    document.getElementById("plus1").innerHTML = "-";
-    document.getElementById("informatie").style= 'background-color: blue;  height: 30vw;     width: 55% ;     margin-bottom: 5%; ';
- 
+  
+    const plus1 = document.getElementById("plus1");
+    const info1 = document.getElementById("informatie");
+    info1.classList.toggle('hide')
+    if (plus1.innerHTML === "+"){
+        plus1.innerHTML = "-";
+    }else{
+        plus1.innerHTML = "+";
+    }
+
+
 
 }
 
-function plus2() {
-            document.getElementById("plus2").innerHTML = "+";
-            document.getElementById("privacy-hooft").style='margin:0; margin-top: 5%';
-          
-            document.getElementById("informatie2").style= 'background-color: blue;  height: 30vw;     width: 55% ;     margin-bottom: 5%; ';
+function toggleClass() {
+        
+        const plus2 = document.getElementById("plus2");
+          const info2 = document.getElementById("informatie2");
+          info2.classList.toggle('hide')
+    if (plus2.innerHTML === "+"){
+        plus2.innerHTML = "-";
+    }else{
+        plus2.innerHTML = "+";
+    }
+    info2.innerHTML = "test";
 
         
     
