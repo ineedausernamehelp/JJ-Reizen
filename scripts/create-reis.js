@@ -1,14 +1,13 @@
 document.getElementById("submit").addEventListener("click", function(event){
-    event.preventDefault()
-    let naam = document.getElementById("naam").value;
+    //event.preventDefault();
+    let prijs = document.getElementById("prijs").value;
     let bestemming = document.getElementById("bestemming").value;
-    let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
     console.log(message);
-    console.log(email);
-    console.log(naam);
+    console.log(prijs);
     console.log(bestemming);
-    if(naam == "" || email == "" || message == "" || bestemming == ""){
+    //contact
+    if(prijs == ""|| message == "" || bestemming == ""){
         alert("1 of meerdere velden staan leeg");
     }
-  });   
+  });    
