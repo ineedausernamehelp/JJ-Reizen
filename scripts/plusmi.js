@@ -27,11 +27,7 @@ function toggleClass() {
     }else{
         plus2.innerHTML = "+";
         info2.style.display = "none";
-    }
-    
-
-   
-    
+    }  
  }
     
 
