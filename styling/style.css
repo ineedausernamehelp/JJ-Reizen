@@ -278,6 +278,9 @@ width: 40%;
 height: 70%;
 background-color: #A8DADC;
 border-radius: 90px;
+text-justify: center;
+text-align: center;
+font-size: 50px;
 }
 .over-jake{
   height: 60vh;
@@ -298,9 +301,6 @@ background-color: #A8DADC;
 border-radius: 90px;
 }
 
-
-
-
 .over-julian{
   height: 60vh;
   background-color: #1D3557;
@@ -312,4 +312,13 @@ border-radius: 90px;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	align-items: center;
+}
+.info-julian{
+  width: 40%;
+  height: 70%;
+  background-color: #A8DADC;
+  border-radius: 90px;
+}
+.textinfo{
+  font-size: 25px;
 }
