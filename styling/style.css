@@ -299,6 +299,8 @@ display: flex;
 height: 70%;
 background-color: #A8DADC;
 border-radius: 90px;
+text-justify: center;
+text-align: center;
 }
 
 .over-julian{
@@ -318,7 +320,10 @@ border-radius: 90px;
   height: 70%;
   background-color: #A8DADC;
   border-radius: 90px;
+  text-justify: center;
+text-align: center;
 }
 .textinfo{
   font-size: 25px;
+  padding-top: 10%;
 }
