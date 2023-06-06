@@ -2,7 +2,7 @@
 require_once('comp/header.php');
 ?>
 <div class="hooftblok">
-    <div class="onze-bestemingen"><p>Onze bestemmingen!!!</p></div>
+    <div class="onze-bestemingen"><a href="Bestemmingen.php"><p>Onze bestemmingen!!!</p></a></div>
     <div>
     </div>
 </div>

@@ -12,7 +12,7 @@
                     <p class="footer-tekst">JJ-reizenCS@JJ-reizen.com</p>
                 </section>
                 <section class="klein-footer-block">
-                    <a href="policy" class="footer-tekst" id="policy" >our policies</a>
+                    <a href="polecy.php" class="footer-tekst" id="policy" >our policies</a>
                 </section>
                 <section class="klein-footer-block">
                     <img class="klein-footer-img-block" src="img/tele-logo.png" alt="">
