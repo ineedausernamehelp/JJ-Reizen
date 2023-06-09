@@ -47,13 +47,13 @@ $data = $conn->query("SELECT landen.country_id as landen_id, landen.name AS land
     <select id="countries">
         <?php 
         foreach($landen as $land) { ?>
-            <option value="<?php echo $land['country_id']?>" <?php echo ($data['landen_id'] == $land['country_id']? 'selected="selected"' : "");?>><?php echo $land['name']?></option>
+            <option id="land" value="<?php echo $land['country_id']?>" <?php echo ($data['landen_id'] == $land['country_id']? 'selected="selected"' : "");?>><?php echo $land['name']?></option>
         <?php }?>
     </select>
     <select id="places">
         <?php 
         foreach($places as $place) { ?>
-            <option value="<?php echo $place['id']?>" <?php echo ($data['place_id'] == $place['id']? 'selected="selected"' : "");?>><?php echo $place['name']?></option>
+            <option id="place" value="<?php echo $place['id']?>" <?php echo ($data['place_id'] == $place['id']? 'selected="selected"' : "");?>><?php echo $place['name']?></option>
         <?php }?>
     </select>
     <input type="text" name="prijs" id="password" class="input-boxes" value="<?php echo $data["prijs"]; ?>">
@@ -62,4 +62,5 @@ $data = $conn->query("SELECT landen.country_id as landen_id, landen.name AS land
     <input type="submit" value="Submit" name="edit" id="logSubmit">
 </form>
 <?php //}?>
-<script src="scripts/login.js"> </script>
+<script src="scripts/reis-updaten.js"> </script>
+<script src="scripts/create-reis.js"> </script>
