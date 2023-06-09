@@ -15,12 +15,12 @@
     
 <header>
     <nav>
-   <div class="image-logo" > <img src="img/logo.png" alt="logo" width="258" height="103" /></div>  
+    <div class="image-logo" > <a href="index.php"><img src="img/logo.png" alt="logo" width="258" height="103" /></a></div>  
    <div class="stijlblock"></div> 
-   <div class="bestemmingen"><p> Bestemmingen</p> </div>
-   <div class="Contact"><p> Contact</p></div>
+   <div class="bestemmingen"><a href="Bestemmingen.php"><p> Bestemmingen</p></a> </div>
+   <div class="Contact"><a href="contact.php"><p> Contact</p></div>
   
-   <div class="image-inlog"><img src="img/personge.png" alt="logo" width="91" height="93" /></div>
+   <div class="image-inlog"><a href="login.php"><img src="img/personge.png" alt="logo" width="91" height="93" /></a></div>
 
     </nav>
 </header>
