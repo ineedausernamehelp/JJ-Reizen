@@ -401,3 +401,77 @@ width: 45%;
 background-color: #F1FAEE;
 border-radius: 71px;
 }
+
+
+.bestemmingen-blok2{
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+  padding-top: 5%;
+}
+.bestemmingen-best2{
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  background-color: #457B9D;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+  border-radius: 25px;
+}
+.best2-mainblok{
+  background-color: #A8DADC;
+  height: 80%;
+  width: 40%;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+  border-radius: 71px;
+  text-justify: center;
+  text-align: center;
+}
+.bast2-img {
+  border-radius: 71px;
+}
+.best2-text {
+display: flex;
+  width: 80%;
+  height: 60%;
+  background-color: #F1FAEE;
+  margin: auto;
+  border-radius: 71px;
+}
+.best2-sijlblok{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+
+  
+}
+.best2-euro{
+  margin-left: 1.5%;
+height: 45%;
+width: 20%;
+background-color: #F1FAEE;
+border-radius: 71px;
+}
+.best2-nu-boek{
+  height: 60%;
+width: 45%;
+background-color: #F1FAEE;
+border-radius: 71px;
+}
+.nietTege{
+ margin-top: 10%;
+}
