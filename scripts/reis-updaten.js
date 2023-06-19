@@ -11,9 +11,7 @@ function reisUpdaten() {
     console.log(jsonData);
     var select = document.getElementById("places");
     var length = select.options.length;
-    var maxLength = length;
-    var country_id = document.getElementById("land_id");
-    var land_id = document.getElementById("place_id");
+
     for (i = length - 1; i >= 0; i--) {
       select.options[i] = null;
     }

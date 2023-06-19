@@ -1,5 +1,5 @@
 <?php
-include_once('comp/PDO.php');
+include_once('../comp/PDO.php');
 
 $country_id = intval($_GET['country_id']);
 

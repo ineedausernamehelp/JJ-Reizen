@@ -1,5 +1,5 @@
 <?php
-include_once('comp/header.php');
+include_once('../comp/PDO.php');
 $id = $_GET["id"];
 $stmt = $conn ->prepare("SELECT * FROM users WHERE id=:id");
 $stmt->execute(['id' => $id]); 
@@ -28,6 +28,7 @@ $user = $stmt->fetch();
 
 <form action="" class="contact-container" method="post">
     <h1>edit user</h1>
+    <link rel="stylesheet" href="../styling/style.css">
     <input type="text" name="username" class="input-boxes" id="gbnaam" value="<?php echo $user["username"]; ?> ">    
     <input type="text" name="password" id="password" class="input-boxes" value="<?php echo $user["password"]; ?>">
     <input type="hidden" name="id" value="<?php echo $user["id"]; ?>">

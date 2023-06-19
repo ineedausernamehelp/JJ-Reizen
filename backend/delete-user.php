@@ -1,4 +1,4 @@
-<?php include_once("comp/PDO.php");
+<?php include_once('../comp/PDO.php');
 $id = $_GET["id"];
 $stmt = $conn ->prepare("SELECT * FROM users WHERE id=:id");
 $stmt->execute(['id' => $id]); 
