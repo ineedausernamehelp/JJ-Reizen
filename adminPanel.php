@@ -7,6 +7,7 @@ if(isset($_SESSION['LOGGED_IN']) && $_SESSION['LOGGED_IN'] == true) {
 <div class="contact-container">
     <a href="backend/create-reis.php">Create nieuwe reizen</a>
     <a href="backend/reizen-inzien.php">reizen inzien</a>
+    <a href="backend/landen-inzien.php">landen inzien</a>
     <a href="backend/create-land.php">land maken</a>
     <a href="backend/places-inzien.php">places inzien</a>
     <a href="backend/create-place.php">place maken</a>
