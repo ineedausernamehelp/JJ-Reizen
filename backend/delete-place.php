@@ -10,7 +10,7 @@ $user = $stmt->fetch();
     $sql = "DELETE FROM places WHERE id  = :id";
     $stmtt = $conn->prepare($sql);
     $stmtt->execute(['id' => intval($id)]);
-    header("Location: place-inzien.php");
+    header("Location: places-inzien.php");
 ?>
 
 
