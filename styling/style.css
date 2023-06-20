@@ -20,21 +20,29 @@ nav{
  align-self: center;
  justify-self: self-start;
 }
+.over-ons{
+  align-self: center;
+    height: 37%;
+    width: 25%;
+    font-size: 3vw;
+    justify-self: flex-end;
+    font-family: 'Open Sans', sans-serif;
+}
 .bestemmingen{
     align-self: center;
     height: 37%;
     width: 25%;
-    font-size: 45px;
+    font-size: 3vw;
     justify-self: flex-end;
     font-family: 'Open Sans', sans-serif;
+    margin-right: 10%;
    
 }
 .Contact{
     align-self: center;
-    
     height: 37%;
     width: 20%;
-    font-size: 45px;
+    font-size: 3vw;
     justify-self: flex-end;
     font-family: 'Open Sans', sans-serif;
 
@@ -48,7 +56,7 @@ nav{
     justify-self: flex-end;
    }
    .stijlblock{
-    width: 35%;
+    width: 10%;
    }
    
    body {
@@ -81,7 +89,7 @@ nav{
   }
   .groot-footer-block {
     border-radius: 3%;
-    font-size: large;
+    font-size: 1.5vw;
     width: 1fr;
     height: 60%;
     text-align: center;
@@ -115,11 +123,13 @@ nav{
     color: black;
     background-color: #f1faee;
     text-decoration: none;
+    font-size: 1vw;
   }
   .klein-footer-img-block {
     height: 80%;
     width: 20%;
     margin-right: 5%;
+    font-size: 1vw;
   }
   .hooftblok{
     height: 100vh;
@@ -136,7 +146,7 @@ display: flex;
     margin-left: 7%;
     margin-bottom: 7%;
     background-color: #A8DADC;
-    font-size: 50px;
+    font-size: 3vw;
     padding-top: 2.5%;
     padding-bottom: 1%;
 
@@ -172,6 +182,35 @@ display: flex;
       height: 7%;
       border: solid #000000 1px;
 
+   }
+   .hooftcontainer-polecy{
+    height: auto;
+    width: 100%;
+    min-height: 55vh;
+    display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+    justify-content: space-evenly;
+	  align-items: center;
+   }
+   .copyright-hooft{
+    width: 55vw;
+    height: 10vh;
+    background-color:#A8DADC;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+   }
+   .copyright-text{
+    height: 60%;
+    width: 30%;
+    background-color: #F1FAEE ;
+    margin-left: 2.5%  ;
+    border-radius: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
 
    }
 
@@ -185,3 +224,297 @@ display: flex;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
    }
+   #privacy-hooft{
+    width: 55vw;
+    height: 10vh;
+    background-color:#A8DADC;
+    display: flex;
+    align-items: center;
+  
+    margin-top: 10%;
+
+   }
+   .privacy-text{
+    height: 60%;
+    width: 30%;
+    background-color: #F1FAEE ;
+    margin-left: 2.5%  ;
+    border-radius: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+
+   }
+   #plusenmin{
+   padding-left: 60%;
+   font-size: 80px;
+   }
+ 
+   .privacypole {
+    background-color: #F1FAEE;  
+    height: 133vw;     
+    width: 55% ;     
+    margin-bottom: 5%;
+    font-size: 0.5;
+   display: none;
+    
+   }
+  
+   .informatie2{
+    padding-bottom: 5%;
+   }
+   .pad{
+    margin-bottom: 8%;
+   }
+#text2{
+  font-size: large;
+}
+.copyrightploe{
+  background-color: #F1FAEE;  
+  height:   15vw;     
+  width: 55% ;     
+  margin-bottom: 5%;
+display: none;
+}
+.achtergrondblock{
+  height: 300vh;
+  width: 100%;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.over-site{
+  height: 60vh;
+background-color: #1D3557;
+width: 100%;  
+display: flex;
+border-radius: 25px;
+display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.info-site{
+width: 40%;
+height: 70%;
+background-color: #A8DADC;
+border-radius: 90px;
+text-justify: center;
+text-align: center;
+font-size: 50px;
+}
+.over-jake{
+  height: 60vh;
+background-color: #457B9D;
+width: 100%;
+display: flex;
+border-radius: 25px;
+display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.info-jake{
+  width: 40%;
+height: 70%;
+background-color: #A8DADC;
+border-radius: 90px;
+text-justify: center;
+text-align: center;
+}
+
+.over-julian{
+  height: 60vh;
+  background-color: #1D3557;
+  width: 100%;
+  display: flex;
+  border-radius: 25px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.info-julian{
+  width: 40%;
+  height: 70%;
+  background-color: #A8DADC;
+  border-radius: 90px;
+  text-justify: center;
+text-align: center;
+}
+.textinfo{
+  font-size: 1.5vw;
+  padding-top: 10%;
+}
+.over-sponsor{
+  height: 60vh;
+background-color: #457B9D;
+width: 100%;
+display: flex;
+border-radius: 25px;
+display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.info-sponsor{
+  width: 40%;
+  height: 70%;
+  background-color: #A8DADC;
+  border-radius: 90px;
+  text-justify: center;
+  text-align: center;
+}
+
+.bestemmingen-blok{
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+  padding-top: 5%;
+}
+.bestemmingen-best1{
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  background-color: #1D3557;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+  border-radius: 25px;
+}
+.best1-mainblok{
+  background-color: #A8DADC;
+  height: 80%;
+  width: 40%;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+  border-radius: 71px;
+  text-justify: center;
+  text-align: center;
+}
+bast1-img {
+  border-radius: 71px;
+}
+.best1-text {
+display: flex;
+  width: 80%;
+  height: 60%;
+  background-color: #F1FAEE;
+  margin: auto;
+  border-radius: 71px;
+}
+.best1-sijlblok{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+
+  
+}
+.best1-euro{
+  margin-left: 1.5%;
+height: 45%;
+width: 20%;
+background-color: #F1FAEE;
+border-radius: 71px;
+}
+.best1-nu-boek{
+  height: 60%;
+width: 45%;
+background-color: #F1FAEE;
+border-radius: 71px;
+}
+
+
+.bestemmingen-blok2{
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+  padding-top: 5%;
+}
+.bestemmingen-best2{
+  display: flex;
+  height: 60vh;
+  width: 100%;
+  background-color: #457B9D;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+  border-radius: 25px;
+}
+.best2-mainblok{
+  background-color: #A8DADC;
+  height: 80%;
+  width: 40%;
+  flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+  border-radius: 71px;
+  text-justify: center;
+  text-align: center;
+}
+.bast2-img {
+  border-radius: 71px;
+}
+.best2-text {
+display: flex;
+  width: 80%;
+  height: 60%;
+  background-color: #F1FAEE;
+  margin: auto;
+  border-radius: 71px;
+}
+.best2-sijlblok{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+
+  
+}
+.best2-euro{
+  margin-left: 1.5%;
+height: 45%;
+width: 20%;
+background-color: #F1FAEE;
+border-radius: 71px;
+}
+.best2-nu-boek{
+  height: 60%;
+width: 45%;
+background-color: #F1FAEE;
+border-radius: 71px;
+}
+.nietTege{
+ margin-top: 10%;
+}

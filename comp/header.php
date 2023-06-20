@@ -17,6 +17,7 @@
     <nav>
     <div class="image-logo" > <a href="index.php"><img src="img/logo.png" alt="logo" width="258" height="103" /></a></div>  
    <div class="stijlblock"></div> 
+   <div class="over-ons"><a href="over-ons.php"><p>Over ons</p></a></div>
    <div class="bestemmingen"><a href="Bestemmingen.php"><p> Bestemmingen</p></a> </div>
    <div class="Contact"><a href="contact.php"><p> Contact</p></div>
   
