@@ -1,6 +1,4 @@
-<?php
-require_once('comp/header.php');
-?>
+
 <div class="bestemmingen-blok">
 <div class="bestemmingen-best1">
     <div class="best1-mainblok">
