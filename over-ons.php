@@ -22,7 +22,24 @@ require_once('comp/header.php');
 </p></div>
 </div>
 </div>
+
+<div class="over-sponsor" >
+<div class="info-sponsor"><h1>hooft sponser: edwarTravel </h1>
+<div class="textinfo"><p>onze profesioneele sponsor hier heeft u een woort van hun:
+
+    Ervaar de voetbalpassie met EdwarTravel!
+
+Ontdek topwedstrijden in de Premier League en NEC Nijmegen met EdwarTravel. Onze reizen zijn op maat gemaakt voor voetbalfans. Boek nu en beleef onvergetelijke momenten!
+
+
+(Florian en Lev - eigenaren) 
+
+</p></div>
 </div>
+<div class="foto-sponsor"><img src="img/sponsor.png" alt="logo" width="700" height=outo /></div>
+</div>
+</div>
+
 
 <?php 
 require_once('comp/footer.php')

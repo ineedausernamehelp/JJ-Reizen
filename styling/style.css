@@ -24,7 +24,7 @@ nav{
     align-self: center;
     height: 37%;
     width: 25%;
-    font-size: 45px;
+    font-size: 3vw;
     justify-self: flex-end;
     font-family: 'Open Sans', sans-serif;
    
@@ -34,7 +34,7 @@ nav{
     
     height: 37%;
     width: 20%;
-    font-size: 45px;
+    font-size: 3vw;
     justify-self: flex-end;
     font-family: 'Open Sans', sans-serif;
 
@@ -81,7 +81,7 @@ nav{
   }
   .groot-footer-block {
     border-radius: 3%;
-    font-size: large;
+    font-size: 1.5vw;
     width: 1fr;
     height: 60%;
     text-align: center;
@@ -115,11 +115,13 @@ nav{
     color: black;
     background-color: #f1faee;
     text-decoration: none;
+    font-size: 1vw;
   }
   .klein-footer-img-block {
     height: 80%;
     width: 20%;
     margin-right: 5%;
+    font-size: 1vw;
   }
   .hooftblok{
     height: 100vh;
@@ -136,7 +138,7 @@ display: flex;
     margin-left: 7%;
     margin-bottom: 7%;
     background-color: #A8DADC;
-    font-size: 50px;
+    font-size: 3vw;
     padding-top: 2.5%;
     padding-bottom: 1%;
 
@@ -200,7 +202,7 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 2.5vw;
 
    }
    #privacy-hooft{
@@ -222,7 +224,7 @@ display: flex;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 2.5vw;
 
    }
    #plusenmin{
@@ -235,6 +237,7 @@ display: flex;
     height: 133vw;     
     width: 55% ;     
     margin-bottom: 5%;
+    font-size: 0.5;
    display: none;
     
    }
@@ -256,7 +259,7 @@ display: flex;
 display: none;
 }
 .achtergrondblock{
-  height: 225vh;
+  height: 300vh;
   width: 100%;
   display: flex;
 	flex-direction: column;
@@ -329,9 +332,30 @@ text-align: center;
 text-align: center;
 }
 .textinfo{
-  font-size: 25px;
+  font-size: 1.5vw;
   padding-top: 10%;
 }
+.over-sponsor{
+  height: 60vh;
+background-color: #457B9D;
+width: 100%;
+display: flex;
+border-radius: 25px;
+display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.info-sponsor{
+  width: 40%;
+  height: 70%;
+  background-color: #A8DADC;
+  border-radius: 90px;
+  text-justify: center;
+  text-align: center;
+}
+
 .bestemmingen-blok{
   min-height: 100vh;
   width: 100%;
