@@ -1,5 +1,5 @@
 
-<?Php include_once('comp/header.php')?>
+<?Php include_once('../comp/PDO.php');?>
 <?php
     if (isset($_POST["submit"])) {
         $username = (isset($_POST['username']) ? $_POST['username'] : '');
@@ -16,6 +16,7 @@
         }
     }
 ?>
+<link rel="stylesheet" href="../styling/style.css">
 <form action="add-user.php" class="contact-container" method="post">
     <h1>create user</h1>
     <input type="text" placeholder="username" name="username" class="input-boxes" id="gbnaam">

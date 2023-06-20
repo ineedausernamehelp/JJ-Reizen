@@ -1,5 +1,5 @@
 <?php 
-include_once("comp/header.php");
+include_once('../comp/PDO.php');
 $data = $conn->query("SELECT landen.country_id as landen_id, landen.name AS land_naam, places.id AS place_id, places.name AS place_naam, reizen.id as reizen_id, reizen.prijs AS prijs FROM `reizen` \n"
 
 . "\n"
@@ -20,6 +20,7 @@ $data = $conn->query("SELECT landen.country_id as landen_id, landen.name AS land
 
     <?php
     foreach ($data as $row) { ?>
+    <link rel="stylesheet" href="../styling/style.css">
             <tr>
                 <td> <?php echo $row['land_naam']; ?></td>
                 <td> <?php echo $row['place_naam']; ?></td>

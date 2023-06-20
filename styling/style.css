@@ -213,6 +213,17 @@ display: flex;
     font-size: 2.5vw;
 
    }
+
+   .table-container{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   td, th{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+   }
    #privacy-hooft{
     width: 55vw;
     height: 10vh;
