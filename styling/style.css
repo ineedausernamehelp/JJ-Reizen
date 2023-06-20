@@ -134,7 +134,7 @@ nav{
   .hooftblok{
     height: 100vh;
     width: 100%;
-    background-image: url('../img/hooftimg.png');
+    background-image: url('../img/hooftimg.jpeg');
 background-size: cover;
 align-items: flex-end;
 display: flex;
@@ -172,17 +172,40 @@ display: flex;
     min-height: 3%;
 
    }
+   .buttons-naast{
+    height: 10vh;
+    width: 40%;
+
+    display: flex;
+    justify-content: space-around;
+   }
    .submit-box{
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
-    font-size: large  ;
+    font-size: 2vh  ;
       background-color: #A8DADC;
       border: none;
-      width: 8%;
-      height: 7%;
+      width: 23%;
+      height: 100%;
       border: solid #000000 1px;
+      border-radius: 90px;
 
    }
+   .geen-acound{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw  ;
+      background-color: #A8DADC;
+      border: none;
+      width: 23%;
+      height: 100%;
+      border: solid #000000 1px;
+      border-radius: 90px;
+      text-align: center;
+      vertical-align: middle;
+      line-height:  480%; 
+   }
+   
    .hooftcontainer-polecy{
     height: auto;
     width: 100%;
@@ -253,12 +276,11 @@ display: flex;
  
    .privacypole {
     background-color: #F1FAEE;  
-    height: 133vw;     
+    height: 140vw;     
     width: 55% ;     
     margin-bottom: 5%;
     font-size: 0.5;
-   display: none;
-    
+   /* display: none;*/    
    }
   
    .informatie2{
