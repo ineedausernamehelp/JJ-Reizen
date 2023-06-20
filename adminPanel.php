@@ -5,11 +5,15 @@ if(isset($_SESSION['LOGGED_IN']) && $_SESSION['LOGGED_IN'] == true) {
 }
 ?>
 <div class="contact-container">
-    <a href="geboekte-reizen.php">bekijk en verwijder geboekte reizen </a>
-    <a href="create-reis.php">Create nieuwe reizen</a>
-    <a href="reizen-inzien.php">reizen inzien</a>
-    <a href="feedback-back.php">bekijk en verwijder feedback</a>
-    <a href="add-user.php">User toevoegen</a>
-    <a href="users-inzien.php">users inzien</a>
+    <a href="backend/create-reis.php">Create nieuwe reizen</a>
+    <a href="backend/reizen-inzien.php">reizen inzien</a>
+    <a href="backend/landen-inzien.php">landen inzien</a>
+    <a href="backend/create-land.php">land maken</a>
+    <a href="backend/places-inzien.php">places inzien</a>
+    <a href="backend/create-place.php">place maken</a>
+    <a href="backend/feedback-back.php">bekijk en verwijder feedback</a>
+    <a href="backend/add-user.php">Admins toevoegen</a>
+    <a href="backend/users-inzien.php">Admins inzien</a>
+    <a href="backend/rUsers-inzien.php">users-inzien</a>
     <a href="comp/logout.php">logout</a>
 </div>
