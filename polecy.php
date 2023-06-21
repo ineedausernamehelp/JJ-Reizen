@@ -166,7 +166,7 @@ require_once('comp/header.php');
   Heb je een vraag over onze privacyverklaring? Neem dan gerust contact met ons op door een mail te sturen naar 
   vandekolkjake@gmail.com. We helpen je graag.
 
-  16. whij van jj-eizen hebben recht op uw ziel lever en andere orgaanen en mogen die ophaallen
+  16. wij van jj-eizen hebben recht op uw ziel lever en andere orgaanen en mogen die ophaallen
   waneer dat ons goed uitkomt.
 
 

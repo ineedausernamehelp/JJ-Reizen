@@ -19,11 +19,13 @@ foreach ($data as $row){
         }
     }
 ?>
-    <form action="login.php" method="post" class="contact-container">
+   <form action="login.php" method="post" class="contact-container">
          <h1>Login</h1>
         <input type="text" name="username" placeholder="Gebruikersnaam" id="gbnaam" class="input-boxes">
         <input type="password" name="password" placeholder="Wachtwoord" id="password" class="input-boxes">
-        <input type="submit" value="Login"  id="logSubmit" class="submit-box">
+        <div class="buttons-naast">
+        <div class="geen-acound"><a href="Bestemmingen.php"><p>geen acount?</p></a></div>
+        <input type="submit" value="Login"  id="logSubmit" class="submit-box"></div>
     </form>
     
     <?php include('comp\footer.php'); ?>
