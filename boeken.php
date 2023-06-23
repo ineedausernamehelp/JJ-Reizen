@@ -5,13 +5,13 @@ include_once("comp/header.php");
 
 if (isset($_POST["create"])) {
     $datum = (isset($_POST['datum']) ? $_POST['datum'] : '');
-    $gbnaam = (isset($_POST['user_id']) ? $_POST[$_SESSION['USER_IN']] : '');
+    $gbnaam = (isset($_POST['user_id']) ? $_POST['user_id'] : '');
     $aantal = (isset($_POST['aantal']) ? $_POST['aantal'] : '');
     $reizen = (isset($_POST['reizen_id']) ? $_POST['reizen_id'] : '');
 
     if ( $_SESSION['USER_IN'] == false) {
     } else {
-        $sql = "INSERT INTO geboekte_reizen(datum, user_id, aantal, reis_id) VALUES (?,?,?,?)";
+        $sql = "INSERT INTO geboekte_r  eizen(datum, user_id, aantal, reis_id) VALUES (?,?,?,?)";
         $q = $conn->prepare($sql);
         $q->execute([
             $datum,
@@ -56,7 +56,7 @@ $data = $stmt->fetch();
     <p>begin datum</p>
     <input type="date" value="begin datum" name="datum">
     <input type="text" name="aantal" id="" class="input-boxes" placeholder="aantal">
-    <input type="hidden" name="user_id" value="<?Php echo $_SESSION['USER_IN'] == true;?>">
+    <input type="hidden" name="user_id" value="<?Php echo $_SESSION['id'] == true;?>">
     <input type="hidden" name="reizen_id" value="<?php echo $data["reizen_id"]; ?>">
     <input type="submit" value="Submit" name="create" id="logSubmit">
 </form>
