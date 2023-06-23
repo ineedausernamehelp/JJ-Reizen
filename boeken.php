@@ -5,16 +5,17 @@ include_once("comp/header.php");
 
 if (isset($_POST["create"])) {
     $datum = (isset($_POST['datum']) ? $_POST['datum'] : '');
-    //$gbnaam = (isset($_POST['gebruikersnaam']) ? $_POST['gebruikersnaam'] : '');
+    $gbnaam = (isset($_POST['user_id']) ? $_POST[$_SESSION['USER_IN']] : '');
     $aantal = (isset($_POST['aantal']) ? $_POST['aantal'] : '');
     $reizen = (isset($_POST['reizen_id']) ? $_POST['reizen_id'] : '');
 
     if ( $_SESSION['USER_IN'] == false) {
     } else {
-        $sql = "INSERT INTO geboekte_reizen(datum, aantal, reis_id) VALUES (?,?,?)";
+        $sql = "INSERT INTO geboekte_reizen(datum, user_id, aantal, reis_id) VALUES (?,?,?,?)";
         $q = $conn->prepare($sql);
         $q->execute([
             $datum,
+            $gbnaam,
             $aantal,
             $reizen
         ]);
