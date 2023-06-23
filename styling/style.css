@@ -191,7 +191,32 @@ display: flex;
       border-radius: 90px;
 
    }
+   .submit-box-ad{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vh  ;
+      background-color: #A8DADC;
+      border: none;
+      width: 5%;
+      height: 5%;
+      border: solid #000000 1px;
+      border-radius: 90px;
+   }
    .geen-acound{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw  ;
+      background-color: #A8DADC;
+      border: none;
+      width: 23%;
+      height: 100%;
+      border: solid #000000 1px;
+      border-radius: 90px;
+      text-align: center;
+      vertical-align: middle;
+      line-height:  480%; 
+   }
+   .admin{
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;
     font-size: 1vw  ;
@@ -441,6 +466,7 @@ display: flex;
   background-color: #F1FAEE;
   margin: auto;
   border-radius: 71px;
+  justify-content: center;
 }
 .best1-sijlblok{
   width: 100%;
@@ -512,6 +538,7 @@ display: flex;
   background-color: #F1FAEE;
   margin: auto;
   border-radius: 71px;
+  justify-content: center;
 }
 .best2-sijlblok{
   width: 100%;
@@ -539,4 +566,7 @@ border-radius: 71px;
 }
 .nietTege{
  margin-top: 10%;
+}
+hooftblok2{
+  height: 100vh;
 }

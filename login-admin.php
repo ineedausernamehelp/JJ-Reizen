@@ -1,9 +1,9 @@
 
 <?php include('comp\header.php');
 if (isset($_SESSION['LOGGED_IN']) && $_SESSION['LOGGED_IN'] == true) {
-    header("Location: index.php");
+    header("Location: adminPanel.php");
 }   
-$data = $conn->query("SELECT * FROM real_users")->fetchAll(); 
+$data = $conn->query("SELECT * FROM users")->fetchAll(); 
 
 foreach ($data as $row){
 
@@ -12,7 +12,7 @@ foreach ($data as $row){
                 
                 $_SESSION['LOGGED_IN'] = true;
                 $_SESSION['username'] = $row['username'];
-                header("Location: index.php");
+                header("Location: adminPanel.php");
             }
             
             
@@ -20,13 +20,12 @@ foreach ($data as $row){
     }
 ?>
    <form action="login.php" method="post" class="contact-container">
-         <h1>Login</h1>
+         <h1>Login-admin</h1>
         <input type="text" name="username" placeholder="Gebruikersnaam" id="gbnaam" class="input-boxes">
         <input type="password" name="password" placeholder="Wachtwoord" id="password" class="input-boxes">
-        <div class="buttons-naast">
-        <div class="geen-acound"><a href="regestratie.php"><p>geen acount?</p></a></div>
-        <input type="submit" value="Login"  id="logSubmit" class="submit-box">
-        <div class="admin"><a href="login-admin.php"><p>admin</p></a></div></div>
+        
+        <input type="submit" value="Login"  id="logSubmit" class="submit-box-ad">
+  
     </form>
     
     <?php include('comp\footer.php'); ?>
