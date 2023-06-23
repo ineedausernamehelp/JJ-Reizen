@@ -11,6 +11,7 @@ foreach ($data as $row){
             if($_POST['username'] == $row['username'] && $_POST['password'] == $row['password']){
                 
                 $_SESSION['USER_IN'] = true;
+                $_SESSION['USER_IN'] = $_POST['id'];
                 $_SESSION['username'] = $row['username'];
                 header("Location: index.php");
             }
