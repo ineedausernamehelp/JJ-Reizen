@@ -191,6 +191,18 @@ display: flex;
       border-radius: 90px;
 
    }
+   .submit-box2{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vh  ;
+      background-color: #A8DADC;
+      border: none;
+      width: 5%;
+      height: 5%;
+      border: solid #000000 1px;
+      border-radius: 90px;
+
+   }
    .submit-box-ad{
     font-weight: bold;
     font-family: 'Open Sans', sans-serif;

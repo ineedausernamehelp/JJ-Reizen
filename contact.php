@@ -27,7 +27,7 @@ if (isset($_POST["conSubmit"])) {
     <input type="text" name="email" placeholder="Email" id="email" class="input-boxes">
     <input type="text" name="bestemming" placeholder="Bestemming" id="bestemming" class="input-boxes">
     <textarea name="bericht" id="message" cols="30" rows="10" class="input-boxes groot-input-box" placeholder="Uw Bericht"></textarea>
-    <input type="submit" value="Submit" id="conSubmit" class="submit-box" name="conSubmit">
+    <input type="submit" value="Submit" id="conSubmit" class="submit-box2" name="conSubmit">
 </form>
 
 
