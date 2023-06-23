@@ -3,7 +3,7 @@
 <div class="bestemmingen-best1">
     <div class="best1-mainblok">
         <h1>naam besteling</h1>
-        <div class="best1-text">jhedusoxfzklj;jnb </div>
+        <div class="best1-text"> </div>
             <div class="best1-sijlblok">
             <div class="best1-euro"> </div>
             <div class="best1-nu-boek">

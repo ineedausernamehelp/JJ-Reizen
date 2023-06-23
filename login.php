@@ -1,6 +1,6 @@
 
 <?php include('comp\header.php');
-if (isset($_SESSION['LOGGED_IN']) && $_SESSION['LOGGED_IN'] == true) {
+if (isset($_SESSION['USER_IN']) && $_SESSION['USER_IN'] == true) {
     header("Location: index.php");
 }   
 $data = $conn->query("SELECT * FROM real_users")->fetchAll(); 
@@ -10,7 +10,7 @@ foreach ($data as $row){
         if (isset($_POST['username']) && isset($_POST['password'])){
             if($_POST['username'] == $row['username'] && $_POST['password'] == $row['password']){
                 
-                $_SESSION['LOGGED_IN'] = true;
+                $_SESSION['USER_IN'] = true;
                 $_SESSION['username'] = $row['username'];
                 header("Location: index.php");
             }
