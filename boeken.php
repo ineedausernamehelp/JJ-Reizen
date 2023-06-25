@@ -22,6 +22,7 @@ if (isset($_POST["create"])) {
     }
 }
 
+
 $_SESSION['USER_IN'];
 $id = $_GET["reizen_id"];
 $stmt = $conn ->prepare('SELECT 
