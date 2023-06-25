@@ -9,9 +9,8 @@ foreach ($data as $row){
 
         if (isset($_POST['username']) && isset($_POST['password'])){
             if($_POST['username'] == $row['username'] && $_POST['password'] == $row['password']){
-                
                 $_SESSION['USER_IN'] = true;
-                $_SESSION['id'] = $_POST['id'];
+                $_SESSION['id'] = $row['ID'];
                 $_SESSION['username'] = $row['username'];
                 header("Location: index.php");
             }

@@ -11,11 +11,12 @@ if (isset($_POST["create"])) {
 
     if ( $_SESSION['USER_IN'] == false) {
     } else {
-        $sql = "INSERT INTO geboekte_r  eizen(datum, user_id, aantal, reis_id) VALUES (?,?,?,?)";
+        var_dump($_SESSION);
+        $sql = "INSERT INTO geboekte_reizen(datum, user_id, aantal, reis_id) VALUES (?,?,?,?)";
         $q = $conn->prepare($sql);
         $q->execute([
             $datum,
-            $gbnaam,
+            $_SESSION['id'],
             $aantal,
             $reizen
         ]);

@@ -1,4 +1,5 @@
 <?php
+include_once('comp/PDO.php');
 require_once('comp/header.php');
 ?>
 <div class="hooftblok">
